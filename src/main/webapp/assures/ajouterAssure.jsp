@@ -1,4 +1,12 @@
-<h2>Ajouter Assuré</h2>
+<html>
+
+<head>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+</head>
+
+<body>
+
+<h2>Ajouter AssurÃ©</h2>
 
 <form action="../ajouterAssure" method="post">
 
@@ -22,3 +30,6 @@ Ajouter
 </button>
 
 </form>
+
+</body>
+</html>
