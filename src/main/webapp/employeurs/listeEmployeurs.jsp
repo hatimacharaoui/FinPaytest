@@ -1,5 +1,11 @@
 <%@ page import="java.util.List" %>
 <%@ page import="com.esocial.model.Employeur" %>
+<html>
+
+<head>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+</head>
+<body>
 
 <h2>Liste des Employeurs</h2>
 
@@ -30,3 +36,5 @@ for(Employeur e : list){
 <% } %>
 
 </table>
+</body>
+</html>
