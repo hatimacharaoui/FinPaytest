@@ -1,3 +1,10 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+</head>
+<body>
+
 <h2>Ajouter Employeur</h2>
 
 <form action="../ajouterEmployeur" method="post">
@@ -13,3 +20,6 @@ Ajouter
 </button>
 
 </form>
+
+</body>
+</html>
