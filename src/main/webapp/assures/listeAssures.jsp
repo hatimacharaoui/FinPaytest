@@ -1,7 +1,15 @@
 <%@ page import="java.util.List" %>
 <%@ page import="com.esocial.model.Assure" %>
 
-<h2>Liste des Assurés</h2>
+<html>
+
+<head>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+</head>
+
+<body>
+
+<h2>Liste des AssurÃ©s</h2>
 
 <table>
 
@@ -32,3 +40,6 @@ for(Assure a : list){
 <% } %>
 
 </table>
+
+</body>
+</html>
