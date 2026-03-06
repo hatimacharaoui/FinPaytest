@@ -4,6 +4,8 @@
 
 <head>
     <title>eSocial Systems</title>
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+
 </head>
 
 <body>
